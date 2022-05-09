@@ -17,7 +17,7 @@ public class HomeController {
 	}
 	
 	@GetMapping("/dashboard")
-	public String dashbode() {
+	public String dashboard() {
 		return "dashboard";
 	}
 	
